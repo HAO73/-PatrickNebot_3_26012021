@@ -1,0 +1,16 @@
+{
+  "name": "patricknebot_3_26012021",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w ./scss/main.scss ./css/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^5.0.0",
+    "sass": "^1.32.8"
+  }
+}
