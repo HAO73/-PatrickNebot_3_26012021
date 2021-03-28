@@ -6,6 +6,7 @@ header .fas {
     font-size:1.3rem;
     color:grey;
     position:absolute;
+    padding-top: 0.5rem;
     left:15px;
     top:5px;
 
@@ -35,9 +36,10 @@ header .fas {
     justify-content: left;
     align-items: center;
     border-radius: 30px 30px 0 0;
+    position: relative;
     margin-top: -40px;
     z-index: 15;   
-    
+     
 
 }
 
@@ -74,7 +76,7 @@ header .fas {
   }
   .heart:hover .fas.fa-heart {
         display: block;
-        color: #99E2D0;
+        color: $color-tertiary; 
         animation: 1s heart;
         animation-fill-mode: forwards;
   }
@@ -241,10 +243,10 @@ header .fas {
     padding: 0;
     
     color: white;
-    background-color:#99e2d0;
+    background-color:$color-tertiary;
     height:66px;
     transition: 400ms;
-    transform-origin: right;
+    
     overflow: hidden;
     border-radius: 0 15px 15px 0;
     
@@ -283,7 +285,7 @@ header .fas {
 .choice-1:hover,.choice-2:hover,.choice-3:hover,.choice-4:hover {
     .check{
     width: 70px;
-    transition:400ms;
+    
 } 
 }
 
@@ -295,35 +297,6 @@ header .fas {
 
 
 }
-
-
-
-
-@keyframes check {
-
- 0%{
-
-    width:0%;
-    opacity:0;
-    background-color:$color-tertiary;
-
- }
-
- 100% {
-
-    width:100%;
-    opacity:1;
-    background-color:$color-tertiary;
-
-
-
- }
-
-
-
-
-}
-
 
 
 @keyframes rotate {
