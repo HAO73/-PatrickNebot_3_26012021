@@ -12,12 +12,20 @@ body {
 #localization {
 
     background-color: rgb(231, 231, 231);
-    padding: 1rem;
+    
     text-align: center;
     font-family: 'Roboto', sans-serif;
     margin-bottom: 0rem;
 }
 
+
+#localization h2 {
+
+    display: inline-block;
+    font-size:1rem;
+    font-weight:normal;
+
+}
 
 #discovery {
 
